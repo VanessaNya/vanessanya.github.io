@@ -1,27 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
-<link rel="stylesheet" type="text/css" href="style.css">
-<head>
-  <title> Hello World</title>
-  <meta charset="UTF-8">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-  <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
-  <title>Document</title>
-</head>
-<body>
- <header>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+     <div class="container-fluid">
+      <div class="navbar-header">
+       <a class="navbar-brand" href="#">MyPortfolio</a>
+     </div>
+    <ul class="nav navbar-nav">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
-  <img src="https://static.pexels.com/photos/66423/pexels-photo-66423.jpeg" atl="header-image" style="width:100%;height:350px;">
-
- <h1>Evolving as a Web Developer</h1>
- <h2> Hi, I'm Vanessa! Welcome..</h2>
-   <div class="flex-container">
-   <div class="flex-item">About Me</div>
-   <div class="flex-item">Projects</div>
-   <div class="flex-item">Skills</div>
-   <div class="flex-item">Contact Me</div>
+<div class="container-fluid">
+ <div class="jumbotron">
+  <div class="row">
+   <div class="col-md-12">
+    <div id="main">
+      <h1><em>Welcome...<img src="http://free-web-tools.com/wp-content/uploads/2015/08/free-logo-flower.png" style="width:100px; height:100px;"></em></h1>
+        <img src="http://janiklipke.com/blog/wp-content/uploads/2015/07/soundcloud_header_image_skyline.jpg" width='100%' height='200'>
+    </div>
+    <div id="about">
+     <p><em>Hi, My name is Vanessa Nya, and I'm an aspiring web developer. I love to bring people's ideas to reality by creating the most awesome sites that suits their needs. I love being creative, and I also enjoy work that challenges me to learn something new everyday. I'm continuously learning to better my programming skills and in hopes to create a very great useful app one day!<h3>Click the<a href="#click-here"> links</a> below and check me out..</h3></em></p>
+    </div>
    </div>
-  </header>
-<footer> Copyright ©️ 2016 Vanessa Portfolio </footer>
-</body>
+  </div>
+ </div>
+</div>
+ <div class="container-fluid">
+  <div class="jumbotron">
+   <div class="row">
+    <div class="col-sm-12">
+      <h2 id="skills"><em><b>Skills</b></em></h2>
+      <p><em>Throughout all my learning, and constantly watching tutorials, and also attending bootcamps, these are some of the skills I possess: HTML5, CSS3, JavaScript, Git, Github, jQuery, JSON, AJAX, MongoDB, Express, NodeJS, Bootstrap, Responsive Web Designs, MVC architecture, Building single page applications (SPA), debugging and deploying applications, Familiarity with Relational SQL database, MySQL. Looking forward to expanding my learning of frameworks and languages.</em></p><br>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <!-- <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol> -->
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/CLISK_1334741064.jpg" alt="html5" width="160">
+    </div>
+    <div class="item">
+      <img src="https://content.linkedin.com/content/dam/me/learning/blog/2016/september/CSS.jpg" alt="css3" width="290">
+    </div>
+    <div class="item">
+      <img src="https://appendto.com/wp-content/uploads/2016/05/javascript-420x168.png" alt="javascript" width="400">
+    </div>
+    <div class="item">
+      <img src="http://www.cloudesign.com/images/bootstrap1.png" alt="bootstrap" width="346">
+    </div>
+    <div class="item">
+      <img src="http://archives.stephaneturquay.com/wp-content/uploads/2014/12/Git-ftp.jpg" alt="git" width="448">
+    </div>
+    <div class="item">
+      <img src="http://www.aha.io/assets/github.7433692cabbfa132f34adb034e7909fa.png" alt="github" width="432">
+    </div>
+    <div class="item">
+      <img src="https://joebuckle.me/wp-content/uploads/2015/09/jquery-logo.png" alt="jquery" width="320">
+    </div>
+    <div class="item">
+      <img src="https://raygun.com/blog/wp-content/uploads/2016/05/nodejs-logo.png" alt="nodejs" width="320">
+    </div>
+    <div class="item">
+      <img src="https://www.percona.com/sites/default/files/json-logo.png" alt="json" width="404">
+    </div>
+    <div class="item">
+      <img src="http://programmerguru.com/ajax-tutorial/wp-content/uploads/sites/8/2013/04/ajax-logo.jpg" alt="ajax" width="247">
+    </div>
+    <div class="item">
+      <img src="https://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2017/01/Untitled-design-796x404.png" alt="mongodb" width="315">
+    </div>
+    <div class="item">
+      <img src="http://o7planning.org/en/10129/cache/images/i/710264.png" alt="mvc" width="480">
+    </div>
+  </div>
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+   </div>
+  </div>
+ </div>
+</div>
+<div class="container-fluid">
+ <div class="jumbotron">
+  <div class="row">
+   <div class="col-sm-12">
+    <h2 id="projects"><em><b>Projects</b></em></h2><br>
+
+    <div class="project-thumbnail">
+    <div class="container">
+      <a class="project" href="http://s.codepen.io/Vanessa10/debug/wowrJa">
+       <img src="http://cdn.smehost.net/michaeljacksoncom-uslegacyprod/wp-content/uploads/2015/12/mobile_slide_4_0.jpg" alt="thumbnail" class="image">
+      <div class="overlay">
+        <div class="text">Tribute page of MJ using bootstrap</div>
+     </div></a>
+   </div>
+
+    <div class="container">
+      <a class="project" href="file:///Users/vanessanya/revature/assignments/about-me/index.html">
+       <img src="http://4.bp.blogspot.com/-OzT9iAJrsMI/VIEwoTR_IjI/AAAAAAAAAfI/-H3tWJAuTXE/s1600/about%2Bme.png" alt="thumbnail" class="image">
+      <div class="overlay">
+        <div class="text">About me page with flashcards using bootstrap, Jquery, and js</div>
+      </div></a>
+    </div>
+
+    <div class="container">
+      <a class="project" href="file:///Users/vanessanya/wdi/exercises/ATM/atm/index.html">
+       <img src="http://image.slidesharecdn.com/atmppt-150930135619-lva1-app6892/95/atmautomatic-teller-machinehistorytypes-working-structure-1-638.jpg" alt="thumbnail" class="image">
+      <div class="overlay">
+        <div class="text">ATM bank made with js and jQuery</div>
+      </div></a>
+    </div>
+
+    <div class="container">
+      <a class="project" href="">
+       <img src="http://asalfoods.com/wp-content/uploads/2016/05/coming-soon.png?x72764" alt="thumbnail" class="image">
+      <div class="overlay">
+        <div class="text">A workout app using js, express, mongoose, and other API's</div>
+      </div></a>
+    </div>
+  </div>
+
+   </div>
+  </div>
+ </div>
+</div>
+<div class="container-fluid">
+ <div class="jumbotron">
+  <div class="row">
+   <div class="col-sm-12">
+     <h2 id="contact"><em><b>Contact</b></em></h2>
+
+    <form action="/action_page.php">
+      <label for="name">Full Name</label>
+       <input type="text" id="name" name="fullname" placeholder="Your name.." required>
+      <label for="email">Email</label>
+       <input type="text" id="email" placeholder="Your email.." required>
+      <label for="message">Message</label>
+       <textarea id="subject" name="subject" placeholder="What can I do for you.." style="height:200px" required></textarea>
+
+  <input id="submit" type="submit" value="Submit">
+  </form>
+   </div>
+  </div>
+ </div>
+</div>
+
+   <script src="script.js"></script>
+  </body>
+  <footer id="click-here">
+    <a href="https://github.com/VanessaNya" target="_blank">
+      <img class="icon" src="https://cdn2.iconfinder.com/data/icons/social-flat/512/github-128.png" style="width:50px;height:50px;"></a>
+    <a href="http://codepen.io/Vanessa10/" target="_blank">
+      <img class="icon" src="  https://blog.codepen.io/wp-content/uploads/2014/03/codepen-logo.svg" style="width:50px;height:50px;"></a>
+    <a href="https://www.freecodecamp.com/vanessanya" target="_blank">
+      <img class="freecodecamp-icon" src="http://s23.postimg.org/n201vuzyf/FCC_footer.png" style="width:50px;height:50px;"></a>
+      &copy; Developed by Vanessa N.
+  </footer>
 </html>
