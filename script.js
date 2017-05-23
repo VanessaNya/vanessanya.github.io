@@ -1,4 +1,4 @@
-window.location.href=""
+// window.location.href=""
 
 $(document).ready(function() {
   $('.navbar').mouseover(function() {
